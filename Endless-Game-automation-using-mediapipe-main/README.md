@@ -1,37 +1,81 @@
-# Endless Running game Automation using mediapipe
-A program to automate subway suffers and temple run
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  
+   
+ 
+</head>
+<body>
 
-[![Build Status](https://travis-ci.org/swapagarwal/JARVIS-on-Messenger.svg?branch=master)](https://travis-ci.org/swapagarwal/JARVIS-on-Messenger)
-![Python](https://img.shields.io/badge/python-3.7-blue.svg)
-[![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
-[![Gitmoji](https://img.shields.io/badge/gitmoji-%20🚀%20🐳-FFDD67.svg)](https://gitmoji.carloscuesta.me)
+  <h1>Endless Running Game Automation using MediaPipe</h1>
+  <p>Automate popular endless running games like Subway Surfers and Temple Run with pose detection and cutting-edge technology! This project uses <strong>MediaPipe</strong> and <strong>Pose Detection</strong> to track human movements and control game actions, providing a novel gaming experience without traditional controls.</p>
 
+  <h2>🚀 Overview</h2>
+  <p>In this project, you’ll explore how to automate endless runner games by detecting poses and translating them into game movements. Through this integration, players can control the game with physical movements, adding an exciting and immersive touch to classic games.</p>
 
-## 🚀 Brief Idea
-Dive into a new era of gaming with my groundbreaking project that combines cutting-edge technology, MediaPipe, and Pose Detection to automate endless running games. 🤖💃
+  <h2>📌 Key Features</h2>
+  <ul>
+    <li><strong>Hands-Free Game Control</strong>: Use pose detection to automate game movements.</li>
+    <li><strong>Compatible Games</strong>: Works with popular endless runners like Subway Surfers and Temple Run.</li>
+    <li><strong>Real-Time Interaction</strong>: Uses Python and MediaPipe to detect player movements in real time.</li>
+    <li><strong>User-Friendly Demo</strong>: Video walkthrough available to guide you through setup and gameplay.</li>
+  </ul>
 
-In today's dynamic gaming landscape, it's not just about playing; it's about redefining how we interact with our favorite titles. 🚀🕹️ This project comes as a response to the evolving expectations of gamers worldwide.
+  <h2>🌐 Real-World Application</h2>
+  <p>This project exemplifies how machine learning and real-time pose tracking can enhance gaming experiences by making game controls more interactive and physically engaging.</p>
 
-Imagine the thrill of controlling popular endless running games like Subway Surfer and Temple Run with your very own movements! 🏃‍♂️💨 The integration of Pose Detection technology opens up a realm of possibilities, providing a seamless and immersive gaming experience that goes beyond traditional controls.
+  <h2>✨ Tech Stack</h2>
+  <ul>
+    <li><strong>Scripting Language</strong>: Python</li>
+    <li><strong>Pose Detection</strong>: MediaPipe library for motion tracking</li>
+  </ul>
 
-In my detailed video demo, I guide you through the step-by-step process of implementing this innovation. 📽️🔧 Be among the first to witness the magic unfold and discover how you can elevate your gaming experience to new heights.
+  <h2>🔧 Installation & Setup</h2>
+  <ol>
+    <li>Clone the Repository:
+      <pre><code>git clone https://github.com/KarriSivakrishna/Endless-Game-automation-using-mediapipe.git</code></pre>
+    </li>
+    <li>Navigate to the project directory:
+      <pre><code>cd Endless-Game-automation-using-mediapipe</code></pre>
+    </li>
+    <li>Install Dependencies:
+      <pre><code>pip install -r requirements.txt</code></pre>
+      If <code>requirements.txt</code> is not available, manually install the libraries:
+      <pre><code>pip install mediapipe opencv-python</code></pre>
+    </li>
+    <li>Run the Game Automation Script:
+      <pre><code>python game_automation.py</code></pre>
+      Replace <code>game_automation.py</code> with your main script name if different.
+    </li>
+  </ol>
 
-🌐 Application in the Real World:
-This project is not just a technological showcase; it's a practical application that brings a touch of the future into our daily gaming adventures. The excitement lies in the realization that what was once science fiction is now a tangible and exhilarating reality.
+  <h2>🚀 How to Use</h2>
+  <p>1. Open the game you want to automate (e.g., Subway Surfers or Temple Run).<br>
+     2. Run the automation script, which will use your camera to detect poses and translate them into game actions.<br>
+     3. Make specific movements (like jumping or moving side to side) to control the character in real time.</p>
 
-## ✨Tech Stack
+  
 
-**Scripting Language:** Python
+  <h2>🤝 Contributing</h2>
+  <p>Contributions are welcome! Follow these steps:</p>
+  <ol>
+    <li>Fork the repository.</li>
+    <li>Create a new branch:
+      <pre><code>git checkout -b feature-branch</code></pre>
+    </li>
+    <li>Commit your changes:
+      <pre><code>git commit -m "Add new feature"</code></pre>
+    </li>
+    <li>Push to your branch:
+      <pre><code>git push origin feature-branch</code></pre>
+    </li>
+    <li>Open a pull request to merge your changes.</li>
+  </ol>
 
+  
 
-## 🔴 Video Demo!
-Project demo :- [Click Here](https://youtu.be/AtIHVtZXhnY)
-
-
-<img src="https://github.com/AdityaWadkar/endless-Game-automation-using-mediapipe/assets/67093170/6c75cc0f-6ed0-4ada-9b39-83316aa6adbf">
-
-
-## Authors
-
-- [@Aditya Wadkar](https://www.github.com/AdityaWadkar)
-
+</body>
+</html>
